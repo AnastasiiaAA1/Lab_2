@@ -15,6 +15,7 @@ public class Lab_2 {
         }
 
         System.out.println("Анализ числа завершен.");
-        scanner.close();
+
+scanner.close();
     }
 }
