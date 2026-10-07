@@ -14,8 +14,7 @@ public class Lab_2 {
             System.out.println("Число является нечетным.");
         }
 
-        System.out.println("Проверка числа завершена.");
-
+        System.out.println("Анализ числа завершен.");
         scanner.close();
     }
 }
