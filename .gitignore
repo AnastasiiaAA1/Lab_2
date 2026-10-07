@@ -1,0 +1,6 @@
+*.class
+target/
+*.tmp
+*.temp
+.DS_Store
+.vscode/
