@@ -9,10 +9,21 @@ public class Lab_2 {
         int number = scanner.nextInt();
 
         if (number % 2 == 0) {
+
            System.out.println("Число является четным."); // Проверка четности
+
         } else {
             System.out.println("Число является нечетным.");
         }
+
+        if (number > 0) {
+            System.out.println("Число положительное.");
+        } else if (number < 0) {
+            System.out.println("Число отрицательное.");
+        } else {
+            System.out.println("Число равно нулю.");
+        }
+
 
         System.out.print("Введите три числа: ");
         int a = scanner.nextInt();
