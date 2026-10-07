@@ -14,6 +14,15 @@ public class Lab_2 {
             System.out.println("Число является нечетным.");
         }
 
+        System.out.print("Введите три числа: ");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int max = Math.max(a, Math.max(b, c));
+
+        System.out.println("Максимальное число: " + max);
+
         scanner.close();
     }
 }
