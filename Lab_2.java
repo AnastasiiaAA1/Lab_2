@@ -34,6 +34,7 @@ public class Lab_2 {
 
       System.out.println("Максимальное из введенных чисел: " + max);
 System.out.println("Анализ числа завершен.");
+System.out.println("Все вычисления выполнены успешно.");
         scanner.close();
     }
 }
