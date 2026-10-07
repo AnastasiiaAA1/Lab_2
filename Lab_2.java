@@ -33,7 +33,7 @@ public class Lab_2 {
         int max = Math.max(a, Math.max(b, c));
 
         System.out.println("Максимальное число: " + max);
-
+System.out.println("Анализ числа завершен.");
         scanner.close();
     }
 }
