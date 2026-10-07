@@ -9,7 +9,7 @@ public class Lab_2 {
         int number = scanner.nextInt();
 
         if (number % 2 == 0) {
-            System.out.println("Число является четным.");
+           System.out.println("Четность числа определена.");
         } else {
             System.out.println("Число является нечетным.");
         }
